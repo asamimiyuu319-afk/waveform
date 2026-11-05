@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>wave/form</title>
+
+<style>
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background: white;
+  font-family: sans-serif;
+}
+
+/* タイトル */
+.site-title {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 14px;
+  z-index: 10;
+}
+
+/* 曲リスト */
+.music-list {
+  width: 90%;
+  max-width: 700px;
+  margin: 100px auto 40px;
+}
+
+/* 1曲 */
+.track {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 14px;
+}
+
+.track-name {
+  width: 70px;
+  flex-shrink: 0;
+  font-size: 14px;
+}
+
+audio {
+  width: 100%;
+  background: transparent;
+  opacity: 0.5;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="site-title">wave/form</div>
+
+<div class="music-list">
+
+  <div class="track">
+    <div class="track-name">wave/01</div>
+    <audio controls>
+      <source src="ffffff.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track">
+    <div class="track-name">wave/02</div>
+    <audio controls>
+      <source src="剪断揺変.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track">
+    <div class="track-name">wave/03</div>
+    <audio controls>
+      <source src="depaysementmp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track">
+    <div class="track-name">wave/04</div>
+    <audio controls>
+      <source src="specere.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track">
+    <div class="track-name">wave/05</div>
+    <audio controls>
+      <source src="Aa.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div class="track">
+    <div class="track-name">wave/06</div>
+    <audio controls>
+      <source src="0000.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+</div>
+
+</body>
+</html>
